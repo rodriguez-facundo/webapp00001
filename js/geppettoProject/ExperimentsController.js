@@ -364,7 +364,7 @@ define(function (require) {
                         }
 
                         // create web worker
-                        this.worker = new Worker("geppetto/js/geppettoProject/ExperimentWorker.js");
+                        this.worker = new Worker("geppetto/node_modules/webapp00001/js/geppettoProject/ExperimentWorker.js");
 
                         // tells worker to update each half a second
                         this.worker.postMessage([GEPPETTO.Events.Experiment_play, GEPPETTO.ExperimentsController.playTimerStep, this.playOptions.step]);

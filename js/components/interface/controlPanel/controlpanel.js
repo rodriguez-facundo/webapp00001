@@ -10,7 +10,7 @@ define(function (require) {
         document.getElementsByTagName("head")[0].appendChild(link);
     }
 
-    loadCss("geppetto/node_modules/webapp/js/components/interface/controlPanel/vendor/css/bootstrap-colorpicker.min.css");
+    loadCss("geppetto/node_modules/webapp00001/js/components/interface/controlPanel/vendor/css/bootstrap-colorpicker.min.css");
 
     //require('./vendor/css/bootstrap-colorpicker.min.css'); Matteo: This require is not working?!?
 
