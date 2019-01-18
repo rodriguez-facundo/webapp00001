@@ -141,8 +141,8 @@ module.exports = function(env){
 	    module: {
 	        rules: [
 	            {
-	                test: /\.(js|jsx)$/,
-	                exclude: [/ami.min.js/, /node_modules/], 
+                  test: /\.(js|jsx)$/,
+                  exclude: [/ami.min.js/, /node_modules\/(?!(webapp00001)\/).*/], 
 	                loader: 'babel-loader',
 	                query: {
 	                    presets: [['babel-preset-env', { "modules": false }], 'stage-2', 'react']

@@ -47,6 +47,7 @@ define(function (require) {
                 }
             });
     }
-  })
+  }
+)
     // require(EXTENSION)(GEPPETTO)
 
